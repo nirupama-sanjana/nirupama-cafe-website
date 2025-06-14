@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    color: saddlebrown;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;    
+}
+
+button{
+    background-color: saddlebrown;
+    color:white;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+.background {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: relative; 
+    width: 100%;
+}
+
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 50px;       
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    max-width: 400px;         
+    width: 80%;               
+    z-index: 1;              
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: saddlebrown;           
+    text-align: center;
+    padding: 10px 5px;
+    width: 100%;   
+    height: min-content;        
+    position :relative; 
+    top: -30px;
+    bottom: 0;
+    z-index: 1;  
+}
+
+
+.instagram-link {
+    text-decoration: none; 
+    display: inline-block; 
+    margin-top: 10px;
+}
+
+.instagram-logo {
+    width: 50px;           
+    height: 50px;
+    vertical-align: middle;
+}
+
